@@ -35,7 +35,7 @@ inData.close ();
 
 //calculations
 double commission = totalSales * (commPercent/100);
-double finalPay = baseSalary + commission - totalExpenses;
+double finalPay = baseSalary + commission + totalExpenses;
 
 //output 
 cout << fixed << setprecision(2);
